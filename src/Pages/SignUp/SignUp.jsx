@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import { Link, useNavigate } from "react-router-dom";
 import useAxiosPublic from "../../Components/Hooks/useAxiosPublic";
 import SocialLogin from "../../Components/SocialLogin/SocialLogin";
+import React from "react";
 
 const SignUp = () => {
   const navigate = useNavigate();
@@ -143,6 +144,11 @@ const SignUp = () => {
             Already have an account? please <Link to={"/login"}>Login</Link>
           </p>
           <SocialLogin></SocialLogin>
+          <Link to={"/"}>
+            <p className="p-4 hover:bg-orange-600 btn m-5 mt-0 bg-orange-500 text-white">
+              Go to Home
+            </p>
+          </Link>
         </div>
       </div>
     </div>
