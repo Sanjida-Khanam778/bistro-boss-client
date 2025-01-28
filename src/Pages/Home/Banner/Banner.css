@@ -1,0 +1,6 @@
+.thumbs-wrapper {
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
