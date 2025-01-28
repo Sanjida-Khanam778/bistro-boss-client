@@ -5,7 +5,6 @@ import Swal from "sweetalert2";
 import { Link, useNavigate } from "react-router-dom";
 import useAxiosPublic from "../../Components/Hooks/useAxiosPublic";
 import SocialLogin from "../../Components/SocialLogin/SocialLogin";
-import React from "react";
 
 const SignUp = () => {
   const navigate = useNavigate();
