@@ -118,6 +118,7 @@ const Login = () => {
           </form>
           <p className="px-6">Don't have any account? please <Link to={'/signup'}>SignUp</Link></p>
           <SocialLogin></SocialLogin>
+          <Link to={'/'}><p className="p-4 hover:bg-orange-600 btn m-5 mt-0 bg-orange-500 text-white">Go to Home</p></Link>
         </div>
       </div>
     </div>
