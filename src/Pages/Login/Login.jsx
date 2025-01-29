@@ -10,6 +10,7 @@ import Swal from "sweetalert2";
 import SocialLogin from "../../Components/SocialLogin/SocialLogin";
 
 const Login = () => {
+  
   const location = useLocation()
   const navigate = useNavigate()
   const from = location.state?.from?.pathname || '/'
